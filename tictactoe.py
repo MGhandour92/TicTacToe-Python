@@ -1,5 +1,5 @@
 from random import randint
-
+from IPython.display import clear_output
 
 def displayEmpty_board():
     board = ''
@@ -20,6 +20,7 @@ def displayEmpty_board():
 
 
 def display_board(boardInput):
+    clear_output()
     board = ''
     counter = 0
 
